@@ -1,0 +1,25 @@
+{
+  "created": 1665035889.1439996,
+  "duration": 0.010007381439208984,
+  "exitcode": 0,
+  "root": "D:\\Users\\btuuganbekov\\Desktop\\mega_projects\\python_tasker",
+  "environment": {
+    "Python": "3.10.2",
+    "Platform": "Windows-10-10.0.17763-SP0",
+    "Packages": {
+      "pytest": "7.1.3",
+      "py": "1.11.0",
+      "pluggy": "1.0.0"
+    },
+    "Plugins": {
+      "anyio": "3.6.1",
+      "json-report": "1.5.0",
+      "metadata": "2.0.2"
+    }
+  },
+  "summary": {
+    "passed": 1,
+    "total": 1,
+    "collected": 1
+  }
+}

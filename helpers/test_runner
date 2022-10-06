@@ -1,0 +1,3 @@
+def run_test(test_file):
+    # path = os.path.join(BASE_DIR, test_file[1:])
+    pytest.main(['--tb=long', '--json-report', test_file, ])

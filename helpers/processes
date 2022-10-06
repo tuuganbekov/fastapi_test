@@ -1,0 +1,10 @@
+if __name__ == '__main__':
+    p = multiprocessing.Process(target=run_test, args=('', ))
+    p.start()
+    time.sleep(2)
+    p.terminate()
+    p.join()
+
+    if p.exitcode != 0:
+        with open('.report.json', 'w') as json_file:
+            json.dump({"exitcode": p.exitcode}, json_file)
